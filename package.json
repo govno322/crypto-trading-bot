@@ -1,0 +1,27 @@
+{
+  "name": "crypto-trading-bot",
+  "version": "1.0.0",
+  "description": "Cryptocurrency trading bot with automated strategies",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "bot",
+    "cryptocurrency"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ccxt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.5.0"
+  }
+}
